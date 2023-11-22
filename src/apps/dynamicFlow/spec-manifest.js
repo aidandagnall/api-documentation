@@ -1,0 +1,78 @@
+const specMenuItems = [
+  { title: 'Step', link: '/dynamic-flow/docs/spec/step/step' },
+  {
+    title: 'Features',
+    subitems: [
+      { title: 'Action', link: '/dynamic-flow/docs/spec/feature/action' },
+      { title: 'External', link: '/dynamic-flow/docs/spec/feature/external' },
+      { title: 'Help', link: '/dynamic-flow/docs/spec/feature/help' },
+      { title: 'Link Handler', link: '/dynamic-flow/docs/spec/feature/link-handler' },
+      { title: 'Navigation', link: '/dynamic-flow/docs/spec/feature/navigation' },
+      { title: 'Persist Async', link: '/dynamic-flow/docs/spec/feature/persist-async' },
+      { title: 'Polling', link: '/dynamic-flow/docs/spec/feature/polling' },
+      { title: 'Refresh On Change', link: '/dynamic-flow/docs/spec/feature/refresh-on-change' },
+      { title: 'Step Error', link: '/dynamic-flow/docs/spec/feature/step-error' },
+      { title: 'Summary', link: '/dynamic-flow/docs/spec/feature/summary' },
+      { title: 'Validate Async', link: '/dynamic-flow/docs/spec/feature/validate-async' },
+    ],
+  },
+  {
+    title: 'Schemas',
+    subitems: [
+      { title: 'Schema', link: '/dynamic-flow/docs/spec/schema/schema' },
+      { title: 'All Of Schema', link: '/dynamic-flow/docs/spec/schema/all-of-schema' },
+      { title: 'Array Schema', link: '/dynamic-flow/docs/spec/schema/array-schema' },
+      { title: 'Blob Schema', link: '/dynamic-flow/docs/spec/schema/blob-schema' },
+      { title: 'Boolean Schema', link: '/dynamic-flow/docs/spec/schema/boolean-schema' },
+      { title: 'Const Schema', link: '/dynamic-flow/docs/spec/schema/const-schema' },
+      { title: 'Integer Schema', link: '/dynamic-flow/docs/spec/schema/integer-schema' },
+      { title: 'Number Schema', link: '/dynamic-flow/docs/spec/schema/number-schema' },
+      { title: 'Object Schema', link: '/dynamic-flow/docs/spec/schema/object-schema' },
+      { title: 'One Of Schema', link: '/dynamic-flow/docs/spec/schema/one-of-schema' },
+      { title: 'String Schema', link: '/dynamic-flow/docs/spec/schema/string-schema' },
+    ],
+  },
+  {
+    title: 'Layouts',
+    subitems: [
+      { title: 'Layout', link: '/dynamic-flow/docs/spec/layout/layout' },
+      { title: 'Alert Layout', link: '/dynamic-flow/docs/spec/layout/alert-layout' },
+      { title: 'Box Layout', link: '/dynamic-flow/docs/spec/layout/box-layout' },
+      { title: 'Button Layout', link: '/dynamic-flow/docs/spec/layout/button-layout' },
+      { title: 'Columns Layout', link: '/dynamic-flow/docs/spec/layout/columns-layout' },
+      { title: 'Decision Layout', link: '/dynamic-flow/docs/spec/layout/decision-layout' },
+      { title: 'Form Layout', link: '/dynamic-flow/docs/spec/layout/form-layout' },
+      { title: 'Heading Layout', link: '/dynamic-flow/docs/spec/layout/heading-layout' },
+      { title: 'Image Layout', link: '/dynamic-flow/docs/spec/layout/image-layout' },
+      { title: 'Instructions Layout', link: '/dynamic-flow/docs/spec/layout/instructions-layout' },
+      { title: 'Loading Indicator Layout', link: '/dynamic-flow/docs/spec/layout/loading-indicator-layout' },
+      { title: 'Markdown Layout', link: '/dynamic-flow/docs/spec/layout/markdown-layout' },
+      { title: 'Paragraph Layout', link: '/dynamic-flow/docs/spec/layout/paragraph-layout' },
+      { title: 'Review Layout', link: '/dynamic-flow/docs/spec/layout/review-layout' },
+      { title: 'Search Layout', link: '/dynamic-flow/docs/spec/layout/search-layout' },
+      { title: 'Status List Layout', link: '/dynamic-flow/docs/spec/layout/status-list-layout' },
+    ],
+  },
+  {
+    title: 'Responses',
+    subitems: [
+      { title: 'Response', link: '/dynamic-flow/docs/spec/responses/response' },
+      { title: 'Action Response Body', link: '/dynamic-flow/docs/spec/responses/action/action-response-body' },
+      { title: 'Error Response Body', link: '/dynamic-flow/docs/spec/responses/error/error-response-body' },
+      { title: 'Search Response Body', link: '/dynamic-flow/docs/spec/responses/search/search-response-body' },
+      { title: 'Search Result', link: '/dynamic-flow/docs/spec/responses/search/search-result' },
+    ],
+  },
+  {
+    title: 'Miscellaneous',
+    subitems: [
+      { title: 'Align', link: '/dynamic-flow/docs/spec/misc/align' },
+      { title: 'Autocomplete Hint', link: '/dynamic-flow/docs/spec/misc/autocomplete-hint' },
+      { title: 'Context', link: '/dynamic-flow/docs/spec/misc/context' },
+      { title: 'Icon', link: '/dynamic-flow/docs/spec/misc/icon' },
+      { title: 'Size', link: '/dynamic-flow/docs/spec/misc/size' },
+    ],
+  },
+];
+
+export { specMenuItems };
